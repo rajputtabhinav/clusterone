@@ -1,0 +1,9 @@
+{
+  "key": "dell",
+  "display_name": "Dell (iDRAC)",
+  "version": "0.1.0",
+  "supported_models": ["PowerEdge R*", "PowerEdge C*", "PowerEdge M*", "PowerEdge T*"],
+  "capabilities": ["discover", "validate", "update_bmc", "update_bios"],
+  "entry": "plugin.py",
+  "instance": "PLUGIN"
+}

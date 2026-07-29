@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clusterone"
+version = "0.1.0"
+description = "ClusterOne — One Platform. Every Server. Enterprise firmware lifecycle management."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "PyQt6>=6.7.0",
+    "aiohttp>=3.9.0",
+    "asyncssh>=2.14.0",
+    "pywin32>=306; sys_platform == 'win32'",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-asyncio>=0.23", "ruff>=0.4", "pyinstaller>=6.6"]
+
+# Third-party OEM plugins register here (pip-installable), e.g.:
+#   [project.entry-points."clusterone.plugins"]
+#   acme = "acme_clusterone_plugin:Plugin"
+[project.entry-points."clusterone.plugins"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

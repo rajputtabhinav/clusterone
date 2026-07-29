@@ -1,0 +1,9 @@
+{
+  "key": "lenovo",
+  "display_name": "Lenovo (XCC)",
+  "version": "0.1.0",
+  "supported_models": ["ThinkSystem SR*", "ThinkSystem SD*", "ThinkSystem ST*", "ThinkServer*"],
+  "capabilities": ["discover", "validate", "update_bmc", "update_bios"],
+  "entry": "plugin.py",
+  "instance": "PLUGIN"
+}

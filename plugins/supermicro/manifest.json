@@ -1,0 +1,9 @@
+{
+  "key": "supermicro",
+  "display_name": "Supermicro",
+  "version": "0.1.0",
+  "supported_models": ["H13*", "X13*", "X12*", "X11*", "H12*"],
+  "capabilities": ["discover", "validate", "update_bmc", "update_bios"],
+  "entry": "plugin.py",
+  "instance": "PLUGIN"
+}

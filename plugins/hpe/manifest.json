@@ -1,0 +1,9 @@
+{
+  "key": "hpe",
+  "display_name": "HPE (iLO)",
+  "version": "0.1.0",
+  "supported_models": ["ProLiant DL*", "ProLiant ML*", "ProLiant BL*", "Apollo*", "Synergy*"],
+  "capabilities": ["discover", "validate", "update_bmc", "update_bios"],
+  "entry": "plugin.py",
+  "instance": "PLUGIN"
+}

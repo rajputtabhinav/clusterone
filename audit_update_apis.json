@@ -1,0 +1,875 @@
+[
+  {
+    "ip": "172.16.11.155",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#UpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=yes",
+    "recipe": "AMI MegaRAC + OEM (#UpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#UpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 3,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMC",
+        "CPLD"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": true
+    }
+  },
+  {
+    "ip": "172.16.11.161",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#AMIUpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=yes",
+    "recipe": "AMI MegaRAC + OEM (#AMIUpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.21.1",
+      "oem_keys": [
+        "Ami",
+        "Bmc"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#AMIUpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 4,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMC",
+        "CPLD",
+        "CPLD_FW_1"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": true
+    }
+  },
+  {
+    "ip": "172.16.11.193",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#AMIUpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=yes",
+    "recipe": "AMI MegaRAC + OEM (#AMIUpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#AMIUpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 34,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMC",
+        "CPLD",
+        "FW_GPU_0",
+        "FW_GPU_1",
+        "FW_GPU_2",
+        "FW_GPU_3",
+        "FW_GPU_4",
+        "FW_GPU_5",
+        "FW_GPU_6",
+        "FW_GPU_7",
+        "HGX_FW_BMC_0",
+        "HGX_FW_CPLD_0",
+        "HGX_FW_CPU_0",
+        "HGX_FW_CPU_1",
+        "HGX_FW_ERoT_BMC_0",
+        "HGX_FW_ERoT_CPU_0",
+        "HGX_FW_ERoT_CPU_1",
+        "HGX_FW_ERoT_FPGA_0",
+        "HGX_FW_ERoT_GPU_0",
+        "HGX_FW_ERoT_GPU_1",
+        "HGX_FW_FPGA_0",
+        "HGX_FW_GPU_0",
+        "HGX_FW_GPU_1",
+        "HGX_InfoROM_GPU_0",
+        "HGX_InfoROM_GPU_1",
+        "InfoROM_GPU_0",
+        "InfoROM_GPU_1",
+        "InfoROM_GPU_2",
+        "InfoROM_GPU_3",
+        "InfoROM_GPU_4",
+        "InfoROM_GPU_5",
+        "InfoROM_GPU_6",
+        "InfoROM_GPU_7"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": true
+    }
+  },
+  {
+    "ip": "172.16.11.224",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#UpdateService.UploadCABundle']  bios_inv=no  bmc_inv=no",
+    "recipe": "AMI MegaRAC + OEM (#UpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#UpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 5,
+      "firmware_inventory_ids": [
+        "BIOSImage1",
+        "BIOSImage2",
+        "BMCImage1",
+        "BMCImage2",
+        "CPLD"
+      ],
+      "bios_updateable": null,
+      "bmc_updateable": null
+    }
+  },
+  {
+    "ip": "172.16.11.228",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#UpdateService.UploadCABundle']  bios_inv=no  bmc_inv=no",
+    "recipe": "AMI MegaRAC + OEM (#UpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#UpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 5,
+      "firmware_inventory_ids": [
+        "BIOSImage1",
+        "BIOSImage2",
+        "BMCImage1",
+        "BMCImage2",
+        "CPLD"
+      ],
+      "bios_updateable": null,
+      "bmc_updateable": null
+    }
+  },
+  {
+    "ip": "172.16.11.250",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#UpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=yes",
+    "recipe": "AMI MegaRAC + OEM (#UpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#UpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 3,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMC",
+        "CPLD"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": true
+    }
+  },
+  {
+    "ip": "172.16.11.34",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#UpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=no",
+    "recipe": "AMI MegaRAC + OEM (#UpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami",
+        "Bmc"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#UpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 4,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMCImage1",
+        "BMCImage2",
+        "CPLD"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": null
+    }
+  },
+  {
+    "ip": "172.16.11.66",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#UpdateService.UploadCABundle']  bios_inv=no  bmc_inv=no",
+    "recipe": "AMI MegaRAC + OEM (#UpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#UpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 5,
+      "firmware_inventory_ids": [
+        "BIOSImage1",
+        "BIOSImage2",
+        "BMCImage1",
+        "BMCImage2",
+        "CPLD"
+      ],
+      "bios_updateable": null,
+      "bmc_updateable": null
+    }
+  },
+  {
+    "ip": "172.16.12.180",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#UpdateService.BMCFwUpdate', '#UpdateService.UploadCABundle', '#UpdateService.UploadFirmwareImage']  bios_inv=yes  bmc_inv=yes",
+    "recipe": "AMI MegaRAC + OEM (#UpdateService.BMCFwUpdate,#UpdateService.UploadCABundle,#UpdateService.UploadFirmwareImage)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.8.0",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#UpdateService.BMCFwUpdate",
+        "#UpdateService.UploadCABundle",
+        "#UpdateService.UploadFirmwareImage"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 7,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMC",
+        "BP",
+        "CPLD",
+        "FPGA",
+        "PSU",
+        "RETIMER"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": true
+    }
+  },
+  {
+    "ip": "172.16.12.192",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#AMIUpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=yes",
+    "recipe": "AMI MegaRAC + OEM (#AMIUpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#AMIUpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 3,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMC",
+        "CPLD"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": true
+    }
+  },
+  {
+    "ip": "172.16.12.242",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#UpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=yes",
+    "recipe": "AMI MegaRAC + OEM (#UpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#UpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 3,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMC",
+        "CPLD"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": true
+    }
+  },
+  {
+    "ip": "172.16.12.55",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#UpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=yes",
+    "recipe": "AMI MegaRAC + OEM (#UpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#UpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 3,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMC",
+        "CPLD"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": true
+    }
+  },
+  {
+    "ip": "172.16.12.93",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#UpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=no",
+    "recipe": "AMI MegaRAC + OEM (#UpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#UpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 6,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMCImage1",
+        "BMCImage2",
+        "CPLD",
+        "PLDM51",
+        "PLDM52"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": null
+    }
+  },
+  {
+    "ip": "172.16.12.97",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#UpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=no",
+    "recipe": "AMI MegaRAC + OEM (#UpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#UpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 6,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMCImage1",
+        "BMCImage2",
+        "CPLD",
+        "PLDM51",
+        "PLDM52"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": null
+    }
+  },
+  {
+    "ip": "172.16.13.16",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#AMIUpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=no",
+    "recipe": "AMI MegaRAC + OEM (#AMIUpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.21.1",
+      "oem_keys": [
+        "Ami",
+        "Bmc"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#AMIUpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 4,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMCImage1",
+        "BMCImage2",
+        "CPLD"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": null
+    }
+  },
+  {
+    "ip": "172.16.13.212",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#UpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=yes",
+    "recipe": "AMI MegaRAC + OEM (#UpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#UpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 3,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMC",
+        "CPLD"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": true
+    }
+  },
+  {
+    "ip": "172.16.13.78",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#UpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=yes",
+    "recipe": "AMI MegaRAC + OEM (#UpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#UpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 4,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMC",
+        "CPLD",
+        "MSCC_0"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": true
+    }
+  },
+  {
+    "ip": "172.16.14.141",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#UpdateService.UploadCABundle']  bios_inv=no  bmc_inv=no",
+    "recipe": "AMI MegaRAC + OEM (#UpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#UpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 5,
+      "firmware_inventory_ids": [
+        "BIOSImage1",
+        "BIOSImage2",
+        "BMCImage1",
+        "BMCImage2",
+        "CPLD"
+      ],
+      "bios_updateable": null,
+      "bmc_updateable": null
+    }
+  },
+  {
+    "ip": "172.16.14.146",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#AMIUpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=no",
+    "recipe": "AMI MegaRAC + OEM (#AMIUpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.21.1",
+      "oem_keys": [
+        "Ami",
+        "Bmc"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#AMIUpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 4,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMCImage1",
+        "BMCImage2",
+        "CPLD"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": null
+    }
+  },
+  {
+    "ip": "172.16.14.173",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#UpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=yes",
+    "recipe": "AMI MegaRAC + OEM (#UpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#UpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 3,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMC",
+        "CPLD"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": true
+    }
+  },
+  {
+    "ip": "172.16.14.197",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#UpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=yes",
+    "recipe": "AMI MegaRAC + OEM (#UpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#UpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 4,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMC",
+        "CPLD",
+        "MSCC_0"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": true
+    }
+  },
+  {
+    "ip": "172.16.14.211",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#UpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=no",
+    "recipe": "AMI MegaRAC + OEM (#UpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#UpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 4,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMCImage1",
+        "BMCImage2",
+        "CPLD"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": null
+    }
+  },
+  {
+    "ip": "172.16.14.221",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#AMIUpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=yes",
+    "recipe": "AMI MegaRAC + OEM (#AMIUpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#AMIUpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 3,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMC",
+        "CPLD"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": true
+    }
+  },
+  {
+    "ip": "172.16.14.31",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#UpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=no",
+    "recipe": "AMI MegaRAC + OEM (#UpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#UpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 6,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMCImage1",
+        "BMCImage2",
+        "CPLD",
+        "PLDM51",
+        "PLDM52"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": null
+    }
+  },
+  {
+    "ip": "172.16.15.13",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#AMIUpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=yes",
+    "recipe": "AMI MegaRAC + OEM (#AMIUpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.21.1",
+      "oem_keys": [
+        "Ami",
+        "Bmc"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#AMIUpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 4,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMC",
+        "CPLD",
+        "CPLD_FW_1"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": true
+    }
+  },
+  {
+    "ip": "172.16.15.202",
+    "ok": true,
+    "fingerprint": "vendor='AMI'                      multipart='/redfish/v1/UpdateService/upload'                  oem_actions=['#AMIUpdateService.UploadCABundle']  bios_inv=yes  bmc_inv=yes",
+    "recipe": "AMI MegaRAC + OEM (#AMIUpdateService.UploadCABundle)",
+    "detail": {
+      "vendor": "AMI",
+      "redfish_version": "1.15.1",
+      "oem_keys": [
+        "Ami"
+      ],
+      "service_enabled": true,
+      "multipart_push_uri": "/redfish/v1/UpdateService/upload",
+      "http_push_uri": "",
+      "standard_actions": [
+        "#UpdateService.SimpleUpdate"
+      ],
+      "oem_actions": [
+        "#AMIUpdateService.UploadCABundle"
+      ],
+      "apply_time_support": null,
+      "firmware_inventory_count": 3,
+      "firmware_inventory_ids": [
+        "BIOS",
+        "BMC",
+        "CPLD"
+      ],
+      "bios_updateable": true,
+      "bmc_updateable": true
+    }
+  }
+]

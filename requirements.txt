@@ -1,0 +1,6 @@
+# ClusterOne runtime dependencies
+PyQt6>=6.7.0                              # UI (QML / Qt Quick) — required to launch the shell
+aiohttp>=3.9.0                            # async Redfish client (discovery + update engine)
+asyncssh>=2.14.0                          # SSH discovery fallback
+pywin32>=306; sys_platform == "win32"     # DPAPI credential encryption (Windows)
+python-docx>=1.1.0                        # DOCX report generation
